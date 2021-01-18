@@ -11,8 +11,8 @@ function secondSmallest(arr) {
     let secondSmallest = Infinity;
     arr.forEach((num) => {
         if (num < smallest) {
-        secondSmallest = smallest;
-        smallest = num;
+            secondSmallest = smallest;
+            smallest = num;
         } else if (num < secondSmallest) {
             secondSmallest = num
         }
